@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,200&family=Poppins:wght@200;300;400;500&family=Ubuntu:wght@300;400&display=swap');
+
+body{
+font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+/* if bg-dark header k upr likhenge..aur header m dono class denge toh...browser overwrite kr dega....header vala background lega */
+
+/* .bg-black{
+    background-color: black;
+} */
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+
+}
+.section-signup{
+    margin: 5rem auto;
+    text-align: center;
+    background-color: rgb(197, 193, 193);
+    border-radius: 10px;
+    padding: 1rem;
+} 
+.signupForm{
+    max-width: 800px;
+    width: 95%;
+    margin: auto;
+    text-align: left;
+}
+.signupForm label{
+    display: block;
+}
+.signupForm input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+.form-group{
+    margin-top: 1rem;
+}
+.signupForm textarea{
+    width: 100%;
+}
+.signup-btn{
+    background:  rgb(44,55, 66);
+    color: white;
+    padding: 1rem 2rem;
+    display:  block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+
