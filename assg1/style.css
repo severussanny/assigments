@@ -8,11 +8,6 @@ font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0; 
 }
-/* if bg-dark header k upr likhenge..aur header m dono class denge toh...browser overwrite kr dega....header vala background lega */
-
-/* .bg-black{
-    background-color: black;
-} */
 
 .container{
     max-width: 1200px;
